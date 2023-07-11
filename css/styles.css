@@ -819,7 +819,8 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   position: absolute;
   top: 50%;
   left: 50%;
-  
+  padding: 72px 24px 24px 24px; 
+
   transform: translateX(-50%) translateY(-50%);
   width: 408px;
   min-height: 584px;
@@ -864,9 +865,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 .modal-btn:focus .close-icon {
   fill: #ffffff;
 }
-.modal-container {
-  padding: 72px 24px 24px 24px; 
-}
+
 .modal-p {
   display: block;
   color: var(--text-dark-color);
@@ -874,8 +873,8 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
   margin-bottom: 16px;
 }
 .modal-form {
@@ -901,20 +900,18 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 .modal-inp {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 40px;
   border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.40);
+  border: 1px solid rgba(46, 47, 66, 0.4); 
   padding: 11px 38px 11px 38px;
   background-color: transparent;
   font-size: 18px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  outline: transparent; 
 }
 .modal-inp:focus{
-  border-color: var(--logo-color); 
+  border-color: #4D5AE5; 
 }
-
-
 .modal-inp-icon {
   position: absolute;
   top:50%;
