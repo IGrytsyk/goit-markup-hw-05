@@ -721,16 +721,20 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
     color: #fff;
     margin-bottom: 16px;
   }
-  .form-container {
-  }
+  
   .footer-form {
-  }
-  .footer-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: var(--indent);
   }
+  .footer-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--indent);
+  }
+  
   .footer-form-input {
     background-color: transparent;
     line-height: 1.5;
@@ -743,9 +747,13 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
     height: 40px;
     border-radius: 4px;
     border: 1px solid #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   } 
+  .footer-form-input::placeholder{
+    color #ffffff;
+  }
   .footer-form-input:hover,
   .footer-form-input:focus{
     border: 1px solid var(--logo-color);
@@ -775,8 +783,8 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding-left: 24px;
 }
   .footer-form-icon {
@@ -813,6 +821,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   position: absolute;
   top: 50%;
   left: 50%;
+  
   transform: translateX(-50%) translateY(-50%);
   width: 408px;
   min-height: 584px;
@@ -858,6 +867,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   fill: #ffffff;
 }
 .modal-container {
+  padding: 72px 24px 24px 24px; 
 }
 .modal-p {
   display: block;
@@ -868,14 +878,9 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-  padding-top: 72px;
-  padding-left: 24px;
-  padding-right: 24px;
   margin-bottom: 16px;
 }
 .modal-form {
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0 auto;
 }
 .modal-form-section {
