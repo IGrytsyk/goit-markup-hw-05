@@ -982,6 +982,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -1001,9 +1002,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: var(--focus-color);
 }
 .modal-form-agreement {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   margin-top: 16px;
   margin-bottom: 24px;
   font-size: 12px;
@@ -1027,6 +1025,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(1);
 }
 .checkbox-link {
+  margin-right: 8px;
   color: var(--logo-color);
 }
 .modal-form-btn {
