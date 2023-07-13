@@ -883,6 +883,9 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 .modal-form-section {
   margin-bottom: 8px;
 }
+.mod-formcomment-box{
+  margin-bottom: 16px;
+}
 .form-label {
   display: block;
   margin-bottom: 8px;
@@ -930,8 +933,8 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   padding: 8px 16px;
   resize: none;
   font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.40);
