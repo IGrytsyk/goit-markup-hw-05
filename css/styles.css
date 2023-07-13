@@ -959,17 +959,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   align-items: center;
   margin-bottom: 24px;
 }
-.modal-form-agreement {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 16px;
-  margin-bottom: 24px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--icon-color);
-}
+
 .modal-form-checkbox {
  
 }
@@ -987,10 +977,22 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 }
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   background-color: var(--focus-color);
+  border: none;
   fill: var(--fill-networks)
 }
 .modal-form-checkbox:focus + .modal-form-custom-checkbox {
   border-color: var(--focus-color);
+}
+.modal-form-agreement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--icon-color);
 }
 .modal-form-checkbox-icon{ 
   width: 10px;
