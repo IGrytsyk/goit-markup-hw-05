@@ -211,7 +211,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--focus-color);
 }
 
-
 /**
   |============================
   | Main stayles
@@ -222,8 +221,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/main/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -723,60 +725,60 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 .social-media-icon {
   width: 24px;
   height: 24px;
-  fill: var(--fill-networks); 
+  fill: var(--fill-networks);
 }
-  .footer-form-container {
-  }
-  .subscribe-p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    color: #fff;
-    margin-bottom: 16px;
-  }
-  
-  .footer-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--indent);
-  }
-  .footer-field{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--indent);
-  }
-  
-  .footer-form-input {
-    background-color: transparent;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    color: #ffffff;
-    font-size: 12px;
-    padding: 8px 16px;
-    width: 264px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid #fff;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  } 
-  .footer-form-input::placeholder{
-    color: var(--white-color);
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2;
-    letter-spacing: 0.04em;
-  }
-  .footer-form-input:hover,
-  .footer-form-input:focus{
-    border: 1px solid var(--logo-color);
-  }
+.footer-form-container {
+}
+.subscribe-p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--indent);
+}
+.footer-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--indent);
+}
+
+.footer-form-input {
+  background-color: transparent;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-input::placeholder {
+  color: var(--white-color);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+.footer-form-input:hover,
+.footer-form-input:focus {
+  border: 1px solid var(--logo-color);
+}
 .footer-form-btn {
   display: flex;
   align-items: center;
@@ -794,21 +796,21 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   border: none;
   margin: 0 auto;
   padding: 8px 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-btn:hover,
-.footer-form-btn:focus{
-  background-color:var(--focus-color);
+.footer-form-btn:focus {
+  background-color: var(--focus-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-  .footer-form-icon {
-    margin-left: 16px;
-    fill: var(--white-color);
-  }
+.footer-form-icon {
+  margin-left: 16px;
+  fill: var(--white-color);
+}
 
-
-  /**
+/**
     |============================
     | Modal stayls
     |============================
@@ -833,7 +835,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 72px 24px 24px 24px; 
+  padding: 72px 24px 24px 24px;
 
   transform: translateX(-50%) translateY(-50%);
   width: 408px;
@@ -887,8 +889,8 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; 
-  letter-spacing: 0.02em; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 .modal-form {
@@ -897,7 +899,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 .modal-form-section {
   margin-bottom: 8px;
 }
-.mod-formcomment-box{
+.mod-formcomment-box {
   margin-bottom: 16px;
 }
 .form-label {
@@ -919,29 +921,29 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   width: 100%;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4); 
+  border: 1px solid rgba(46, 47, 66, 0.4);
   padding: 11px 38px 11px 38px;
   background-color: transparent;
   font-size: 18px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  outline: transparent; 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
-.modal-inp:focus{
-  border-color: #4D5AE5; 
+.modal-inp:focus {
+  border-color: #4d5ae5;
 }
 .modal-inp-icon {
   position: absolute;
-  top:50%;
-  left:16px;
+  top: 50%;
+  left: 16px;
   fill: var(--dark-bgr);
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
-.modal-inp:focus + .modal-inp-icon{
+.modal-inp:focus + .modal-inp-icon {
   fill: var(--logo-color);
 }
-.modal-form-comment{
+.modal-form-comment {
   width: 360px;
   height: 120px;
   padding: 8px 16px;
@@ -952,30 +954,27 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   background-color: transparent;
   color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.40);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-comment::placeholder{
-  
-  color:currentColor;
+.modal-form-comment::placeholder {
+  color: currentColor;
 }
-.modal-form-comment:focus{
-  border-color: var(--logo-color); 
+.modal-form-comment:focus {
+  border-color: var(--logo-color);
 }
 
 /* checkbox */
 
-.mod-box-checkbox{
+.mod-box-checkbox {
   display: flex;
   gap: 8px;
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
 }
-
 .modal-form-checkbox {
- 
 }
 .modal-form-custom-checkbox {
   display: inline-flex;
@@ -983,13 +982,17 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   align-items: center;
   width: 16px;
   height: 16px;
-  fill: transparent; 
-  border: 1px solid  rgba(46, 47, 66, 0.40);
+  fill: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-.modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox {
+.modal-form-checkbox:checked
+  + .modal-form-agreement
+  .modal-form-custom-checkbox {
   background-color: var(--focus-color);
   border: none;
   fill: var(--fill-networks);
@@ -1008,7 +1011,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   letter-spacing: 0.04em;
   color: var(--icon-color);
 }
-.modal-form-checkbox-icon{ 
+.modal-form-checkbox-icon {
   width: 10px;
   height: 8px;
   opacity: 0;
@@ -1016,25 +1019,24 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   transition: opacity var(--active), transform var(--active);
   fill: var(--white-bgr);
 }
-.modal-form-checkbox:checked + .modal-form-agreement > .modal-form-custom-checkbox > .modal-form-checkbox-icon {
+.modal-form-checkbox:checked
+  + .modal-form-agreement
+  > .modal-form-custom-checkbox
+  > .modal-form-checkbox-icon {
   opacity: 1;
   transform: scale(1);
 }
-
-.modal-checkbox-text {
-  
-}
 .checkbox-link {
-  color: var(--logo-color)
+  color: var(--logo-color);
 }
 .modal-form-btn {
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  background-color: #4D5AE5;
-  color: #ffffff ;
+  background-color: #4d5ae5;
+  color: #ffffff;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
@@ -1043,10 +1045,10 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   letter-spacing: 0.04em;
   margin: 0 auto;
   border-radius: 4px;
-  border: none; 
+  border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-bottom: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-btn:hover,
 .modal-form-btn:focus {
