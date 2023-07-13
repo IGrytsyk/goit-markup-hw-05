@@ -975,12 +975,12 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+.modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox {
   background-color: var(--focus-color);
   border: none;
-  fill: var(--fill-networks)
+  fill: var(--fill-networks);
 }
-.modal-form-checkbox:focus + .modal-form-custom-checkbox {
+.modal-form-checkbox:focus + .modal-form-agreement .modal-form-custom-checkbox {
   border-color: var(--focus-color);
 }
 .modal-form-agreement {
@@ -1002,7 +1002,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   transition: opacity var(--active), transform var(--active);
   fill: var(--white-bgr);
 }
-.modal-form-checkbox:checked + .modal-form-custom-checkbox > .modal-form-checkbox-icon {
+.modal-form-checkbox:checked + .modal-form-agreement > .modal-form-custom-checkbox > .modal-form-checkbox-icon {
   opacity: 1;
   transform: scale(1);
 }
